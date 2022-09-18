@@ -1,7 +1,7 @@
 return {
     vscNone = "NONE",
     vscFront = "#D4D4D4",
-    vscBack = "#1E1E1E",
+    vscBack = "#151515",
 
     vscTabCurrent = "#1E1E1E",
     vscTabOther = "#2D2D2D",
@@ -11,19 +11,19 @@ return {
     vscLeftMid = "#373737",
     vscLeftLight = "#636369",
 
-    vscPopupFront = "#BBBBBB",
-    vscPopupBack = "#272727",
-    vscPopupHighlightBlue = "#004b72",
-    vscPopupHighlightGray = "#343B41",
+    vscPopupFront = "#ABB2BF",
+    vscPopupBack = "#282C34",
+    vscPopupHighlightBlue = "#004B72",
+    vscPopupHighlightLightBlue = "#569CD6",
 
     vscSplitLight = "#898989",
     vscSplitDark = "#444444",
     vscSplitThumb = "#424242",
 
-    vscCursorDarkDark = "#222222",
+    vscCursorDarkDark = "#1C1C1C",
     vscCursorDark = "#51504F",
     vscCursorLight = "#AEAFAD",
-    vscSelection = "#264F78",
+    vscSelection = "#3E4452",
     vscLineNumber = "#5A5A5A",
 
     vscDiffRedDark = "#4B1818",
@@ -31,8 +31,7 @@ return {
     vscDiffRedLightLight = "#FB0101",
     vscDiffGreenDark = "#373D29",
     vscDiffGreenLight = "#4B5632",
-    vscSearchCurrent = "#515c6a",
-    vscSearch = "#613315",
+    vscSearch = "#5C6370",
 
     vscGitAdded = "#81b88b",
     vscGitModified = "#e2c08d",
@@ -51,7 +50,7 @@ return {
     vscFoldBackground = "#202d39",
 
     -- Syntax colors
-    vscGray = "#808080",
+    vscGray = "#5A5B5E",
     vscViolet = "#646695",
     vscBlue = "#569CD6",
     vscDarkBlue = "#223E55",
@@ -70,5 +69,5 @@ return {
     -- Other ui specific colors
     vscUiBlue = "#084671",
     vscUiOrange = "#f28b25",
-    vscPopupHighlightLightBlue = "#d7eafe",
+    vscTodo = "#87CEFA",
 }
