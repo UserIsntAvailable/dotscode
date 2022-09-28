@@ -66,6 +66,16 @@ return {
     vscYellow = "#DCDCAA",
     vscPink = "#C586C0",
 
+    -- Terminal colors ( TODO: Could auto generate from alacritty.yml )
+    vscTermBlack = "#232323",
+    vscTermRed = "#FF000F",
+    vscTermGreen = "#00F83E",
+    vscTermYellow = "#E1E600",
+    vscTermBlue = "#1081D6",
+    vscTermMagenta = "#6D43A6",
+    vscTermCyan = "#008DF8",
+    vscTermWhite = "#FFFFFF",
+
     -- Other ui specific colors
     vscUiBlue = "#084671",
     vscUiOrange = "#f28b25",

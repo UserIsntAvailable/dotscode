@@ -358,16 +358,16 @@ return {
 
         -- Git
         hl("gitcommitHeader", { fg = c.vscGray, bg = c.vscNone })
-        hl("gitcommitOnBranch", { fg = c.vscGray, bg = c.vscNone })
-        hl("gitcommitBranch", { fg = c.vscPink, bg = c.vscNone })
-        hl("gitcommitComment", { fg = c.vscGray, bg = c.vscNone })
-        hl("gitcommitSelectedType", { fg = c.vscGreen, bg = c.vscNone })
-        hl("gitcommitSelectedFile", { fg = c.vscGreen, bg = c.vscNone })
-        hl("gitcommitDiscardedType", { fg = c.vscRed, bg = c.vscNone })
-        hl("gitcommitDiscardedFile", { fg = c.vscRed, bg = c.vscNone })
-        hl("gitcommitOverflow", { fg = c.vscRed, bg = c.vscNone })
-        hl("gitcommitSummary", { fg = c.vscPink, bg = c.vscNone })
-        hl("gitcommitBlank", { fg = c.vscPink, bg = c.vscNone })
+        hl("gitcommitOnBranch", { fg = c.vscGray, bg = c.vscNone, italic = true })
+        hl("gitcommitBranch", { fg = c.vscBlue, bg = c.vscNone, italic = true })
+        hl("gitcommitComment", { fg = c.vscGray, bg = c.vscNone, italic = true })
+        hl("gitcommitSelectedType", { fg = c.vscTermGreen, bg = c.vscNone })
+        hl("gitcommitSelectedFile", { fg = c.vscTermGreen, bg = c.vscNone })
+        hl("gitcommitDiscardedType", { fg = c.vscTermRed, bg = c.vscNone })
+        hl("gitcommitDiscardedFile", { fg = c.vscTermRed, bg = c.vscNone })
+        hl("gitcommitOverflow", { fg = c.vscFront, bg = c.vscNone })
+        hl("gitcommitSummary", { fg = c.vscBlue, bg = c.vscNone })
+        hl("gitcommitBlank", { fg = c.vscBack, bg = c.vscRed, bold = true })
 
         -- Lua
         hl("luaFuncCall", { fg = c.vscYellow, bg = c.vscNone })
