@@ -1,4 +1,4 @@
-local theme = require("vscode.theme")
+local theme = require("dotscode.theme")
 
 local M = {}
 
@@ -8,7 +8,7 @@ local M = {}
 M.setup = function(user_opts)
     local defaults = { italic_comments = false }
 
-    local opts = vim.tbl_extend("keep", user_opts, defaults)
+    local opts = vim.tbl_extend("keep", user_opts or {}, defaults)
 
     vim.cmd("hi clear")
     if vim.fn.exists("syntax_on") then

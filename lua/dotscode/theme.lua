@@ -1,4 +1,4 @@
-local c = require("vscode.colors")
+local c = require("dotscode.colors")
 
 local function hl(name, opts)
     vim.api.nvim_set_hl(0, name, opts)
