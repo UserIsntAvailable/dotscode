@@ -132,9 +132,12 @@ return {
         hl("@tag.attribute", { fg = c.vscLightBlue, bg = c.vscNone })
         hl("@tag.delimiter", { fg = c.vscGray, bg = c.vscNone })
         hl("@text", { fg = c.vscFront, bg = c.vscNone })
+        hl("@text.note", { fg = c.vscTodo, bg = c.vscNone, bold = true, underline = true })
         hl("@text.underline", { fg = c.vscYellowOrange, bg = c.vscNone })
+        hl("@text.warning", { fg = c.vscTodo, bg = c.vscNone, bold = true, underline = true })
         hl("@type", { fg = c.vscBlueGreen, bg = c.vscNone })
         hl("@type.builtin", { fg = c.vscBlue, bg = c.vscNone })
+        hl("@type.qualifier", { fg = c.vscBlue, bg = c.vscNone })
         hl("@variable", { fg = c.vscLightBlue, bg = c.vscNone })
         hl("@variable.builtin", { fg = c.vscLightBlue, bg = c.vscNone })
 
