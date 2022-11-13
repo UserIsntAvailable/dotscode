@@ -125,6 +125,7 @@ return {
         hl("@punctuation.bracket", { fg = c.vscFront, bg = c.vscNone })
         hl("@punctuation.special", { fg = c.vscFront, bg = c.vscNone })
         hl("@repeat", { fg = c.vscPink, bg = c.vscNone })
+        hl("@storageclass.lifetime", { fg = c.vscFront, bg = c.vscNone })
         hl("@string", { fg = c.vscOrange, bg = c.vscNone })
         hl("@string.escape", { fg = c.vscOrange, bg = c.vscNone })
         hl("@string.regex", { fg = c.vscOrange, bg = c.vscNone })
