@@ -127,7 +127,7 @@ return {
         hl("@repeat", { fg = c.vscPink, bg = c.vscNone })
         hl("@storageclass.lifetime", { fg = c.vscFront, bg = c.vscNone })
         hl("@string", { fg = c.vscOrange, bg = c.vscNone })
-        hl("@string.escape", { fg = c.vscOrange, bg = c.vscNone })
+        hl("@string.escape", { fg = c.vscOrange, bg = c.vscNone, bold = true })
         hl("@string.regex", { fg = c.vscOrange, bg = c.vscNone })
         hl("@structure", { fg = c.vscLightBlue, bg = c.vscNone })
         hl("@tag", { fg = c.vscBlue, bg = c.vscNone })
