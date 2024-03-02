@@ -75,7 +75,7 @@ return {
         hl("StatusLineNC", { fg = c.vscFront, bg = c.vscLeftDark })
         hl("StorageClass", { fg = c.vscBlue, bg = c.vscNone })
         hl("String", { fg = c.vscOrange, bg = c.vscNone })
-        hl("Structure", { fg = c.vscBlue, bg = c.vscNone })
+        hl("Structure", { fg = c.vscBlueGreen, bg = c.vscNone })
         hl("TabLine", { fg = c.vscFront, bg = c.vscTabOther })
         hl("TabLineFill", { fg = c.vscFront, bg = c.vscTabOutside })
         hl("TabLineSel", { fg = c.vscFront, bg = c.vscTabCurrent })
@@ -83,7 +83,7 @@ return {
         hl("Title", { fg = c.vscNone, bg = c.vscNone, bold = true })
         hl("Todo", { fg = c.vscTodo, bg = c.vscNone, bold = true, underline = true })
         hl("Type", { fg = c.vscBlue, bg = c.vscNone })
-        hl("Typedef", { fg = c.vscBlue, bg = c.vscNone })
+        hl("Typedef", { fg = c.vscBlueGreen, bg = c.vscNone })
         hl("Underlined", { fg = c.vscNone, bg = c.vscNone, underline = true })
         hl("VertSplit", { fg = c.vscSplitDark, bg = c.vscBack })
         hl("Visual", { fg = c.vscNone, bg = c.vscSelection })
@@ -112,10 +112,14 @@ return {
         hl("@function.macro", { fg = c.vscYellow, bg = c.vscNone })
         hl("@include", { fg = c.vscPink, bg = c.vscNone })
         hl("@keyword", { fg = c.vscBlue, bg = c.vscNone })
+        hl("@keyword.conditional", { fg = c.vscPink, bg = c.vscNone })
         hl("@keyword.function", { fg = c.vscPink, bg = c.vscNone })
         hl("@keyword.operator", { fg = c.vscBlue, bg = c.vscNone })
+        hl("@keyword.repeat", { fg = c.vscPink, bg = c.vscNone })
+        hl("@keyword.storage.lifetime", { fg = c.vscFront, bg = c.vscNone })
         hl("@label", { fg = c.vscLightBlue, bg = c.vscNone })
         hl("@method", { fg = c.vscYellow, bg = c.vscNone })
+        hl("@module", { fg = c.vscBlueGreen, bg = c.vscNone })
         hl("@namespace", { fg = c.vscBlueGreen, bg = c.vscNone })
         hl("@number", { fg = c.vscLightGreen, bg = c.vscNone })
         hl("@operator", { fg = c.vscFront, bg = c.vscNone })
@@ -146,6 +150,28 @@ return {
         hl("markdownTSLiteral", { fg = c.vscOrange, bg = c.vscNone })
         hl("markdownTSPunctSpecial", { fg = c.vscBlue, bold = true })
         hl("markdown_inlineTSLiteral", { fg = c.vscOrange, bg = c.vscNone })
+
+        -- LSP semantic tokens
+
+        -- hl("@lsp.mod.callable", { link = "@function" })
+        hl("@lsp.mod.constant", { link = "@constant" })
+        -- hl("@lsp.type.enum", { fg = c.vscLightGreen, bg = c.vscNone })
+        -- hl("@lsp.type.interface", { fg = c.vscLightGreen, bg = c.vscNone })
+        hl("@lsp.type.macro", { link = "@function" })
+        hl("@lsp.type.number", { link = "@number" })
+        hl("@lsp.type.operator", { link = "@operator" })
+        hl("@lsp.type.punctuation", { link = "Delimiter" })
+        hl("@lsp.type.string", { link = "@string" })
+        -- hl("@lsp.typemod.parameter.callable.declaration.rust", { link = "@parameter" })
+
+        hl("@lsp.type.comment", {})
+
+        hl("@lsp.type.variable.lua", {})
+
+        hl("@lsp.mod.controlFlow.rust", {}) -- Disabled
+        hl("@lsp.type.enumMember.rust", {})
+        hl("@lsp.type.keyword.rust", {})
+        hl("@lsp.type.parameter.rust", {})
 
         -- Markdown
         hl("markdownBold", { fg = c.vscBlue, bold = true })
